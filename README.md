@@ -1,6 +1,6 @@
 # Mahima's Developer Portfolio
 
-\<p align="center">   \<a href="[https://portfolio-katta-mahima-406t9v0x7.vercel.app/](https://portfolio-katta-mahima-406t9v0x7.vercel.app/)">     🌐 \*\*View Live Portfolio\*\*   \</a> \</p>
+🌐 **[View Live Portfolio](https://portfolio-katta-mahima-406t9v0x7.vercel.app/)**
 
 A personal developer portfolio showcasing my projects, technical skills, experience, and achievements. Built to highlight my journey as a Computer Science student and aspiring Software Development Engineer.
 
