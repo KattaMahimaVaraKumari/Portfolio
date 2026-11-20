@@ -1,7 +1,8 @@
 import React from 'react';
 import { personalInfo } from '../data/portfolioData';
-import { ArrowDown, ArrowUpRight, Mail, Terminal, Layers, Cpu, Sparkles } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Terminal, Layers, Cpu, Sparkles } from 'lucide-react';
 import GithubIcon from './icons/GithubIcon';
+import LinkedinIcon from './icons/LinkedinIcon';
 
 export default function Hero() {
   return (
@@ -69,11 +70,13 @@ export default function Hero() {
                 <span>github.com/KattaMahimaVaraKumari</span>
               </a>
               <a
-                href={`mailto:${personalInfo.email}`}
+                href={personalInfo.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-white transition-colors"
               >
-                <Mail className="w-4 h-4 text-cyan-400 shrink-0" />
-                <span>{personalInfo.email}</span>
+                <LinkedinIcon className="w-4 h-4 text-cyan-400 shrink-0" />
+                <span>LinkedIn</span>
               </a>
             </div>
           </div>

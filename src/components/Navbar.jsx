@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { personalInfo } from '../data/portfolioData';
-import { Menu, X, ArrowUpRight, Mail, Terminal, Sparkles } from 'lucide-react';
+import { Menu, X, ArrowUpRight } from 'lucide-react';
 import GithubIcon from './icons/GithubIcon';
+import LinkedinIcon from './icons/LinkedinIcon';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -58,14 +59,9 @@ export default function Navbar() {
               KM
             </div>
           </div>
-          <div className="flex flex-col">
-            <span className="font-semibold text-sm tracking-tight text-white group-hover:text-indigo-200 transition-colors">
-              Mahima Kumari
-            </span>
-            <span className="font-mono text-[10px] text-zinc-400 tracking-wider">
-              IIIT PUNE · SDE
-            </span>
-          </div>
+          <span className="font-semibold text-sm tracking-tight text-white group-hover:text-indigo-200 transition-colors">
+            {personalInfo.brandName}
+          </span>
         </a>
 
         {/* Desktop Navigation Links */}
@@ -150,13 +146,16 @@ export default function Navbar() {
               className="flex items-center gap-2 text-xs text-zinc-400 hover:text-white"
             >
               <GithubIcon className="w-4 h-4" />
-              <span>github.com/KattaMahimaVaraKumari</span>
+              <span>GitHub</span>
             </a>
             <a
-              href={`mailto:${personalInfo.email}`}
-              className="p-2 rounded-lg bg-white/5 text-zinc-300 hover:text-white"
+              href={personalInfo.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-xs text-zinc-400 hover:text-white"
             >
-              <Mail className="w-4 h-4" />
+              <LinkedinIcon className="w-4 h-4" />
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>

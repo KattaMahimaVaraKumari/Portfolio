@@ -1,14 +1,14 @@
 export const personalInfo = {
   name: "Katta Mahima Vara Kumari",
+  brandName: "Katta Mahima",
   roleHeadline: "Software Engineer | Backend Developer | AI/ML Enthusiast",
   badge: "COMPUTER SCIENCE STUDENT · IIIT PUNE",
   university: "Indian Institute of Information Technology, Pune",
   degree: "B.Tech in Computer Science and Engineering",
   period: "2024–2028",
   location: "India",
-  email: "kattamahimavarakumari@gmail.com",
-  phone: "+91 6281422896",
   github: "https://github.com/KattaMahimaVaraKumari",
+  linkedin: "https://www.linkedin.com/in/mahima-vara-kumari-katta-251262323/",
   aboutParagraphs: [
     "I'm a Computer Science undergraduate at IIIT Pune who enjoys turning ideas into working software.",
     "My interests lie in backend engineering, API development, machine learning and AI-powered applications. I enjoy understanding how systems work behind the scenes, building reliable APIs and integrating intelligent features into practical products.",
@@ -196,12 +196,5 @@ export const achievementsData = [
     category: "Leadership & Civic Honor",
     icon: "shield",
     description: "Prestigious Governor's Award recognizing distinguished leadership, community service, and disciplined teamwork."
-  },
-  {
-    title: "Selected for Inter-IIIT Volleyball",
-    issuer: "IIIT Sports Council",
-    category: "Athletics & Team Sports",
-    icon: "trophy",
-    description: "Represented IIIT Pune at the national inter-institute level, demonstrating grit, leadership, and athletic execution."
   }
 ];
