@@ -1,5 +1,7 @@
 # Katta Mahima Vara Kumari – Developer Portfolio
 
+🌐 **[View Live Portfolio](https://portfolio-katta-mahima.vercel.app/)**
+
 A developer portfolio website for **Katta Mahima Vara Kumari**, Computer Science undergraduate at **IIIT Pune** (2024–2028), specializing in backend engineering, API systems, and practical AI/ML applications.
 
 ## 🚀 Live Build & Features
